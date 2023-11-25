@@ -20,7 +20,5 @@ const vuetify = createVuetify({
 })
 
 createApp(App)
-	.use(router)
-	.use(axios)
-	.use(vuetify)
+	.use(router, axios, vuetify)
 	.mount('#app')
